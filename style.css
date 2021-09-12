@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Duru Sans', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 230px;
+    background: transparent;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    margin: 30px 60px 0 85px;
+}
+
+.last-line img {
+    margin: 30px 200px 0 85px;
+}
+
+.burger-menu img {
+    margin: 0px 200px 0 0;
+}
+
+.navbar-links {
+    width: 100%;
+}
+
+.navbar-links ul {
+    margin: 0 160px 0 105px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #45949f;
+    display: block;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 105px;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
+@media (max-width: 750px) {
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.hero {
+    background-image: url("img/hero.png");
+    width: 100%;
+    height: 1290px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-weight: 400;
+    font-size: 130px;
+    padding: 80px 0 45px 0;
+}
+
+.hero-text h2 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #46a8b2;
+    padding: 100px 0 45px 0;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 30px;
+    color: #46a8b2;
+    padding: 0 333px 0 385px;
+}
+
+.hero-text>.button {
+    margin-top: 40px;
+    background-color: #fff;
+    font-size: 33px;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.philosophy {
+    background-image: url("img/philosophy.png");
+    width: 100%;
+    z-index: 0;
+    margin-top: -470px;
+    height: 2150px;
+    background-repeat: no-repeat;
+}
+
+.philosophy-title {
+    display: flex;
+    padding-top: 625px;
+    justify-content: center;
+}
+
+.philosophy-title h1 {
+    color: #3f505a;
+    font-size: 89px;
+    font-weight: 400;
+    padding-left: 55px;
+    padding-right: 35px;
+    letter-spacing: 5px;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+}
+
+.philosophy-text {
+    display: flex;
+    padding: 100px 211px 50px 220px;
+    justify-content: space-between;
+}
+
+.text-left,
+.text-right {
+    width: 47%;
+}
+
+.text-left {
+    text-align: right;
+}
+
+.philosophy-text p {
+    color: #3f505a;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 243px;
+}
+
+.read-more a {
+    background-color: #3f505a;
+    border: none;
+    color: white;
+    padding: 23px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+}
+
+.offers {
+    background-image: url("img/posts.png");
+    width: 100%;
+    z-index: 0;
+    height: 2130px;
+    margin-top: -440px;
+    background-repeat: no-repeat;
+}
+
+.posts {
+    display: flex;
+    height: 500px;
+    padding-top: 600px;
+    padding: 600px 170px 0 195px
+}
+
+.post {
+    width: 33%;
+    height: 100px;
+}
