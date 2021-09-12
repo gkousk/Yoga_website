@@ -91,7 +91,6 @@ body {
 .hero {
     background-image: url("img/hero.png");
     width: 100%;
-    height: 1290px;
     background-repeat: no-repeat;
     z-index: 1;
     position: relative;
@@ -106,6 +105,7 @@ body {
 .hero-text {
     text-align: center;
     width: 100%;
+    padding-bottom: 220px;
 }
 
 .hero-text h1 {
@@ -211,7 +211,7 @@ body {
     background-image: url("img/posts.png");
     width: 100%;
     z-index: 0;
-    height: 2130px;
+    height: 2345px;
     margin-top: -440px;
     background-repeat: no-repeat;
 }
@@ -275,4 +275,310 @@ body {
 
 .post-left {
     padding-top: 295px;
+}
+
+.yoga-beginners {
+    padding-top: 35px;
+    justify-content: center;
+    margin-bottom: 215px;
+}
+
+.yoga-beginners .title {
+    border: 8px solid #77838A;
+    border-radius: 15px;
+    height: 135px;
+    width: 1030px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 108px;
+}
+
+.title h1 {
+    color: #3f505a;
+    font-weight: 400;
+    font-size: 66px;
+    padding: 25px 115px;
+}
+
+.yoga-begin {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+}
+
+.yoga-begin .left,
+.right {
+    width: 45%;
+}
+
+.yoga-begin p {
+    color: #3f505a;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+.left-button {
+    display: flex;
+}
+
+.left-button a {
+    font-size: 39px;
+    font-weight: 400;
+    color: #49c9d4;
+    text-decoration: none;
+    padding-left: 33px;
+}
+
+.sign-up {
+    background-image: url("img/sign-up.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sign-content {
+    display: flex;
+    padding-bottom: 195px;
+}
+
+.sign-content>.left,
+.right {
+    width: 48%;
+}
+
+.sign-content>.left {
+    margin-right: 60px;
+}
+
+.polygon img {
+    position: absolute;
+    top: 625px;
+    left: 735px;
+    width: auto !important;
+    height: auto !important;
+}
+
+.sign-content img {
+    width: 930px;
+    height: 660px;
+}
+
+.sign-content>.right {
+    width: 930px;
+    height: 660px;
+    background-color: #3f505a;
+}
+
+.sign-content>.right>p {
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 83px;
+    padding: 125px 165px 145px 189px;
+    text-align: center;
+}
+
+.right-column {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 108px;
+}
+
+.right-column img {
+    height: auto;
+    width: auto;
+    padding-right: 35px;
+}
+
+.register-content .title {
+    width: 500px;
+    height: 195px;
+    background-color: #3f505a;
+    text-align: center;
+    border-radius: 7px;
+    padding: 55px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-content>.title h2 {
+    font-size: 116px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    line-height: 66px;
+    color: #fff;
+}
+
+.register-content .sub-title {
+    width: 800px;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    margin: -35px auto 55px auto;
+    padding: 15px 65px;
+}
+
+.sub-title h3 {
+    color: #3f505a;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.register-text {
+    display: flex;
+    justify-content: center;
+}
+
+.register-text p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3f505a;
+    padding-left: 63px;
+    padding-right: 48px;
+}
+
+.register-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.register-button a {
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #3f505a;
+    text-decoration: none;
+    width: 375px;
+    height: 85px;
+    padding: 15px 42px;
+}
+
+.classes {
+    margin-top: 230px;
+    padding: 0 165px;
+    position: relative;
+    z-index: 1;
+}
+
+.classes-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.class {
+    width: 33%;
+}
+
+.class h1 {
+    font-size: 46px;
+    font-weight: 400;
+    color: #3f505a;
+}
+
+.class img {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.class p {
+    font-size: 30px;
+    color: #3f505a;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.class-button {
+    display: flex;
+}
+
+.class-button a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #49c9d4;
+    text-decoration: none;
+    width: 220px;
+    height: 60px;
+    padding: 15px 35px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.methodology {
+    height: 1100px;
+    background-image: url("img/methodology.png");
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.methodology-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+.methodology-title h1 {
+    font-size: 65px;
+    color: #49c9d4;
+    line-height: 55px;
+}
+
+.methodology-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.methodology-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 190px 65px 180px;
+}
+
+.methodology-text .left,
+.right {
+    width: 46%;
+}
+
+.methodology-text .left {
+    text-align: right;
+}
+
+.methodology-text p {
+    font-size: 25px;
+    line-height: 44px;
+}
+
+.methodology-button {
+    display: flex;
+    justify-content: center;
+}
+
+.methodology-button a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #3f505a;
+    background-color: #fff;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 15px 30px;
+}
+
+.inhale {
+    height: 1100px;
+    background-image: url("img/inhale.png");
+    background-repeat: no-repeat;
+    margin-top: -250px;
+    z-index: -1;
+    position: relative;
 }
