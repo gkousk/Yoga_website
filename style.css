@@ -218,12 +218,61 @@ body {
 
 .posts {
     display: flex;
-    height: 500px;
-    padding-top: 600px;
-    padding: 600px 170px 0 195px
+    justify-content: space-between;
+    padding: 300px 170px 0 195px
 }
 
 .post {
-    width: 33%;
+    width: 380px;
     height: 100px;
+}
+
+.post h1 {
+    font-weight: 400;
+    font-size: 44px;
+    color: #49c9d4;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.post img {
+    height: 830px;
+}
+
+.post p {
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+}
+
+.buttons {
+    padding-top: 50px;
+    display: flex;
+}
+
+.buttons img {
+    width: auto;
+    height: auto;
+    padding-right: 33px;
+}
+
+.buttons a {
+    background-color: #49c9d4;
+    border: none;
+    color: #3f505a;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    border-radius: 12px;
+}
+
+.post-center {
+    padding-top: 115px;
+}
+
+.post-left {
+    padding-top: 295px;
 }
