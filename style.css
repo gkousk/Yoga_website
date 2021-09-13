@@ -15,6 +15,9 @@ body {
     padding: 0px;
 }
 
+
+/* Navbar */
+
 .navbar {
     width: 100%;
     height: 230px;
@@ -63,37 +66,14 @@ body {
     background-color: transparent;
 }
 
-@media (max-width: 750px) {
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-    .navbar-links li {
-        text-align: center;
-    }
-    .navbar-links li a {
-        padding: .5rem 1rem;
-    }
-    .navbar-links.active {
-        display: flex;
-    }
-}
+
+/* Hero */
 
 .hero {
     background-image: url("img/hero.png");
     width: 100%;
     background-repeat: no-repeat;
     z-index: 1;
-    position: relative;
 }
 
 .logo {
@@ -140,13 +120,16 @@ body {
     display: inline-block;
 }
 
+
+/* Philosophy */
+
 .philosophy {
     background-image: url("img/philosophy.png");
     width: 100%;
-    z-index: 0;
+    z-index: -1;
     margin-top: -470px;
-    height: 2150px;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .philosophy-title {
@@ -194,6 +177,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 243px;
+    padding-bottom: 970px
 }
 
 .read-more a {
@@ -207,11 +191,13 @@ body {
     font-size: 33px;
 }
 
+
+/* Offers */
+
 .offers {
     background-image: url("img/posts.png");
     width: 100%;
     z-index: 0;
-    height: 2345px;
     margin-top: -440px;
     background-repeat: no-repeat;
 }
@@ -219,12 +205,11 @@ body {
 .posts {
     display: flex;
     justify-content: space-between;
-    padding: 300px 170px 0 195px
+    padding: 300px 170px 365px 195px
 }
 
 .post {
     width: 380px;
-    height: 100px;
 }
 
 .post h1 {
@@ -277,10 +262,13 @@ body {
     padding-top: 295px;
 }
 
+
+/* Yoga beginners */
+
 .yoga-beginners {
     padding-top: 35px;
     justify-content: center;
-    margin-bottom: 215px;
+    padding-bottom: 215px;
 }
 
 .yoga-beginners .title {
@@ -332,6 +320,9 @@ body {
     text-decoration: none;
     padding-left: 33px;
 }
+
+
+/* Sign up */
 
 .sign-up {
     background-image: url("img/sign-up.png");
@@ -392,6 +383,10 @@ body {
     height: auto;
     width: auto;
     padding-right: 35px;
+}
+
+.register-content {
+    padding-bottom: 190px;
 }
 
 .register-content .title {
@@ -461,8 +456,11 @@ body {
     padding: 15px 42px;
 }
 
+
+/* Classes */
+
 .classes {
-    margin-top: 230px;
+    margin-top: 40px;
     padding: 0 165px;
     position: relative;
     z-index: 1;
@@ -511,6 +509,9 @@ body {
     margin-top: 15px;
     margin-left: 30px;
 }
+
+
+/* Methodology */
 
 .methodology {
     height: 1100px;
@@ -561,6 +562,7 @@ body {
 .methodology-button {
     display: flex;
     justify-content: center;
+    padding-bottom: 170px
 }
 
 .methodology-button a {
@@ -574,11 +576,119 @@ body {
     padding: 15px 30px;
 }
 
+
+/*Inhale*/
+
 .inhale {
-    height: 1100px;
     background-image: url("img/inhale.png");
     background-repeat: no-repeat;
     margin-top: -250px;
     z-index: -1;
     position: relative;
+    padding-top: 250px;
+}
+
+.inhale h1 {
+    font-size: 55px;
+    color: #3f505a;
+}
+
+.inhale-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.inhale-text img {
+    width: 40px;
+    height: auto;
+}
+
+.exhale-text {
+    display: flex;
+    justify-content: center;
+}
+
+.exhale-text img {
+    width: 40px;
+    height: auto;
+}
+
+.inhale img {
+    margin-right: 60px;
+}
+
+.inhale-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.inhale h2 {
+    font-size: 59px;
+    color: #49c9d4;
+}
+
+.inhale-title img {
+    margin-right: 0px;
+    padding-bottom: 540px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-image: url("img/footer.png");
+    margin-top: -272px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 335px 215px 115px 165px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    max-width: 415px;
+}
+
+.footer-title {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.footer img {
+    padding-right: 90px;
+}
+
+.footer h1 {
+    font-size: 39px;
+    font-weight: 400;
+    color: #3f505a;
+}
+
+.footer p {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-social {
+    display: flex;
+    padding-left: 115px;
+}
+
+.footer-social img {
+    width: 67px;
+    height: auto;
+    padding-right: 25px;
+}
+
+.footer-seperate {
+    padding-top: 70px;
+}
+
+.footer-seperate img {
+    padding-right: 0px;
 }
