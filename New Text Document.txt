@@ -1,150 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <title>Yoga</title>
-</head>
-
-<body>
-    <main>
-        <!--HERO-->
-        <section class="hero">
-            <nav class="navbar" id="nav">
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="navbar-links">
-                    <ul>
-                        <li>
-                            <img src="img/line-blue.png" alt="line-blue">
-                        </li>
-                        <li>
-                            <a href="#">
-                                HOME
-                            </a>
-                        </li>
-                        <li>
-                            <img src="img/line-blue.png" alt="line-blue">
-                        </li>
-                        <li>
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li>
-                            <img src="img/line-blue.png" alt="line-blue">
-                        </li>
-                        <li>
-                            <a href="#">BLOG</a>
-                        </li>
-                        <li>
-                            <img src="img/line-blue.png" alt="line-blue">
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="hero-text">
-                <h1>YOGACLASSES</h1>
-                <img src="img/seperator.png" alt="seperator" />
-                <h2>BODY HARMONY</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </p>
-                <a href="#" class="button">
-                    More
-                </a>
-            </div>
-        </section>
-
-        <!--PHILOSOPHY-->
-        <section class="philosophy">
-            <div class="philosophy-title">
-                <img src="img/polygon-left.png" alt="polygon-left">
-                <h1>OUR PHILOSOPHY</h1>
-                <img src="img/polygon-right.png" alt="polygon-right">
-            </div>
-            <div class="underline">
-                <img src="img/line.png" alt="line">
-            </div>
-            <div class="philosophy-text">
-                <div class="text-left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece- nas accumsan lacus vel facilisis.
-                    </p>
-                </div>
-                <div class="text-right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece- nas accumsan lacus vel facilisis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="read-more">
-                <a href="#">Read more</a>
-            </div>
-
-        </section>
-        <!--OFFERS-->
-        <section class="offers">
-            <div class="posts">
-                <div class="post post-left">
-                    <h1>FIRST CLASS FREE</h1>
-                    <img src="img/first-class.png" alt="first-class">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
-                    <div class="buttons">
-                        <img src="img/polygon-left.png" alt="polygon-left">
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="post post-center">
-                    <h1>HARMONY YOUR BODY</h1>
-                    <img src="img/harmony.png" alt="harmony">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
-                    <div class="buttons">
-                        <img src="img/polygon-left.png" alt="polygon-left">
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="post post-right">
-                    <h1>YOGA FOR BEGINNERS</h1>
-                    <img src="img/beginners.png" alt="beginners">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
-                    <div class="buttons">
-                        <img src="img/polygon-left.png" alt="polygon-left">
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--YOGA BEGINNERS-->
-        <section class="yoga-beginners">
-            <div class="title">
-                <h1>YOGA FOR BEGINNERS</h1>
-            </div>
-            <div class="yoga-begin">
-                <div class="left">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet. consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                    <div class="left-button">
-                        <img src="img/polygon-left-black.png" alt="polygon-black">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="right">
-                    <img src="img/yoga-beginner.png" alt="beginer">
-                </div>
-            </div>
-        </section>
+       
 
         <!--SIGN UP-->
         <section class="sign-up">
@@ -204,7 +58,7 @@
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div class="class class-last">
+                <div class="class">
                     <h1>FIRST CLASS FREE</h1>
                     <img src="img/class-c.png" alt="class-c">
                     <p>Lorem ipsum <br/> dolor sit amet, con sectetuer adipiscing elit. </p>
@@ -215,6 +69,7 @@
                 </div>
             </div>
         </section>
+
 
         <!-- METHODOLOGY-->
         <section class="methodology">
@@ -299,7 +154,3 @@
             </div>
             <a href="http://www.freepik.com" class="designer">Designed by Freepik</a>
         </section>
-    </main>
-</body>
-
-</html>
