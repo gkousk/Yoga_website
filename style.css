@@ -1096,6 +1096,9 @@ body {
         width: 100%;
         height: auto;
     }
+    .class-button a {
+        width: auto;
+    }
     .class-button img {
         width: auto;
         height: auto;
@@ -1305,6 +1308,9 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .class h1 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -1407,6 +1413,9 @@ body {
     }
     .inhale {
         margin-top: -320px;
+    }
+    .class p {
+        padding-right: 0px;
     }
 }
 
